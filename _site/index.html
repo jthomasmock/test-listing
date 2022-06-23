@@ -64,9 +64,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-title','listing-image','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-image","listing-date"],
+      searchColumns: ["listing-title","listing-image","listing-author","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -332,7 +332,10 @@ background-size: cover;
 </a><h5 class="no-anchor card-title listing-title"><a href="" class="quarto-grid-link">
 </a><a href="https://colorado.rstudio.com/rsc/content/a4cea054-c92d-4764-970d-b3473239c939/">Bike Predict - ETL Step 1 - Raw Data Refresh</a>
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+sam.edwardes
+</div>
 <div class="listing-date">
 May 21, 2022
 </div>
@@ -351,7 +354,10 @@ May 21, 2022
 </a><h5 class="no-anchor card-title listing-title"><a href="" class="quarto-grid-link">
 </a><a href="https://colorado.rstudio.com/rsc/content/82fe2eea-0164-4823-98e3-ff15f1d31036/">Bike Predict - ETL Step 2 - Tidy Data</a>
 </h5>
-<div class="card-attribution card-text-small end">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+sam.edwardes
+</div>
 <div class="listing-date">
 May 21, 2022
 </div>
