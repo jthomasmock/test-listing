@@ -92,9 +92,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-image','listing-subtitle',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-image','listing-author','listing-date',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-image","listing-subtitle"],
+      searchColumns: ["listing-title","listing-image","listing-author","listing-date"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -148,9 +148,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-author','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-subtitle","listing-image"],
+      searchColumns: ["listing-title","listing-date","listing-author","listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -176,9 +176,9 @@ ul.task-list{list-style: none;}
     }
 
     const options = {
-      valueNames: ['listing-title','listing-date','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      valueNames: ['listing-title','listing-date','listing-author','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
       
-      searchColumns: ["listing-title","listing-date","listing-subtitle","listing-image"],
+      searchColumns: ["listing-title","listing-date","listing-author","listing-image"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -269,7 +269,8 @@ background-size: cover;
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>This document is doesn’t have any R code but recreates the core features of <code>connectwidgets</code> - providing a Python friendly way of creating custom aggregation pages!</p>
+<p>This document doesn’t have any R code but recreates the core features of <code>connectwidgets</code> - providing a Python friendly way of creating custom aggregation pages!</p>
+<p>Either <code>engine: python</code> or <code>engine: knitr</code> works for this document.</p>
 </div>
 </div>
 <section id="background" class="level2">
@@ -325,7 +326,7 @@ background-size: cover;
 <a href="" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="" class="quarto-grid-link">
 <p class="card-img-top">
-<img src="qmd-bike.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="white-qmd-bike.png" class="thumbnail-image card-img" style="height: 100px;">
 </p>
 </a><div class="card-body post-contents"><a href="" class="quarto-grid-link">
 </a><h5 class="no-anchor card-title listing-title"><a href="" class="quarto-grid-link">
@@ -344,7 +345,7 @@ May 21, 2022
 <a href="" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="" class="quarto-grid-link">
 <p class="card-img-top">
-<img src="qmd-bike.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="white-qmd-bike.png" class="thumbnail-image card-img" style="height: 100px;">
 </p>
 </a><div class="card-body post-contents"><a href="" class="quarto-grid-link">
 </a><h5 class="no-anchor card-title listing-title"><a href="" class="quarto-grid-link">
@@ -372,16 +373,16 @@ No matching items
 <a href="" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="" class="quarto-grid-link">
 <p class="card-img-top">
-<img src="vetiver-bike.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="white-vetiver-bike.png" class="thumbnail-image card-img" style="height: 100px;">
 </p>
 </a><div class="card-body post-contents"><a href="" class="quarto-grid-link">
 </a><h5 class="no-anchor card-title listing-title"><a href="" class="quarto-grid-link">
-</a><a href="https://colorado.rstudio.com/rsc/content/35a5a9c3-f8b1-414a-91cb-bdb5ad402580/">Bike-Predict—Model-Step-2—Metrics-1654034593681</a>
+</a><a href="https://colorado.rstudio.com/rsc/content/07b3ff23-595b-4f8b-9f28-7c393cf230ef/">Bike Predict - Model Step 1 - Train and Deploy</a>
 </h5>
-<div class="card-subtitle listing-subtitle">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 sam.edwardes
 </div>
-<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 31, 2022
 </div>
@@ -394,16 +395,16 @@ May 31, 2022
 <a href="" class="quarto-grid-link">
 </a><div class="quarto-grid-item card h-100 card-left"><a href="" class="quarto-grid-link">
 <p class="card-img-top">
-<img src="vetiver-bike.png" class="thumbnail-image card-img" style="height: 150px;">
+<img src="white-vetiver-bike.png" class="thumbnail-image card-img" style="height: 100px;">
 </p>
 </a><div class="card-body post-contents"><a href="" class="quarto-grid-link">
 </a><h5 class="no-anchor card-title listing-title"><a href="" class="quarto-grid-link">
-</a><a href="https://colorado.rstudio.com/rsc/content/07b3ff23-595b-4f8b-9f28-7c393cf230ef/">Bike-Predict—Model-Step-1—Train-and-Deploy-1654034008521</a>
+</a><a href="https://colorado.rstudio.com/rsc/content/35a5a9c3-f8b1-414a-91cb-bdb5ad402580/">Bike Predict - Model Step 2 - Metrics</a>
 </h5>
-<div class="card-subtitle listing-subtitle">
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
 sam.edwardes
 </div>
-<div class="card-attribution card-text-small end">
 <div class="listing-date">
 May 31, 2022
 </div>
@@ -512,7 +513,7 @@ No matching items
 <div class="list quarto-listing-default">
 <div class="quarto-post image-left" data-index="0" data-listing-date-sort="2022-06-22">
 <div class="thumbnail">
-<p><a href=""> <img src="api-bike.png" class="thumnail-image"> </a></p>
+<p><a href=""> <img src="white-api-bike.png" class="thumnail-image" style="height: 75px;"> </a></p>
 </div>
 <div class="body">
 <a href="">
@@ -520,7 +521,7 @@ No matching items
 </a><a href="https://colorado.rstudio.com/rsc/content/69186bcd-5a1d-4607-a68b-da78ee6cdf2a//">Bike Predict - Model - API</a>
 </h3>
 <div class="listing-subtitle">
-sam.edwardes
+
 </div>
 
 </div>
@@ -528,6 +529,9 @@ sam.edwardes
 <a href="">
 <div class="listing-date">
 Jun 22, 2022
+</div>
+<div class="listing-author">
+sam.edwardes
 </div>
 </a>
 </div>
@@ -544,7 +548,7 @@ No matching items
 <div class="list quarto-listing-default">
 <div class="quarto-post image-left" data-index="0" data-listing-date-sort="2022-06-21">
 <div class="thumbnail">
-<p><a href=""> <img src="connectwidgets-bike.png" class="thumnail-image"> </a></p>
+<p><a href=""> <img src="white-connectwidgets-bike.png" class="thumnail-image" style="height: 75px;"> </a></p>
 </div>
 <div class="body">
 <a href="">
@@ -552,7 +556,7 @@ No matching items
 </a><a href="https://colorado.rstudio.com/rsc/content/3124a8f9-7d30-44b9-a49a-552db71b036e/">Bike Predict - App - Connect Widgets</a>
 </h3>
 <div class="listing-subtitle">
-sam.edwardes
+
 </div>
 
 </div>
@@ -561,12 +565,15 @@ sam.edwardes
 <div class="listing-date">
 Jun 21, 2022
 </div>
+<div class="listing-author">
+sam.edwardes
+</div>
 </a>
 </div>
 </div>
 <div class="quarto-post image-left" data-index="1" data-listing-date-sort="2022-06-22">
 <div class="thumbnail">
-<p><a href=""> <img src="shiny-bike.png" class="thumnail-image"> </a></p>
+<p><a href=""> <img src="white-shiny-bike.png" class="thumnail-image" style="height: 75px;"> </a></p>
 </div>
 <div class="body">
 <a href="">
@@ -574,7 +581,7 @@ Jun 21, 2022
 </a><a href="https://colorado.rstudio.com/rsc/content/0477855b-caeb-43e8-b3d9-28e0965e6230/">Bike Predict - App - Client App</a>
 </h3>
 <div class="listing-subtitle">
-sam.edwardes
+
 </div>
 
 </div>
@@ -583,12 +590,15 @@ sam.edwardes
 <div class="listing-date">
 Jun 22, 2022
 </div>
+<div class="listing-author">
+sam.edwardes
+</div>
 </a>
 </div>
 </div>
 <div class="quarto-post image-left" data-index="2" data-listing-date-sort="2022-06-21">
 <div class="thumbnail">
-<p><a href=""> <img src="shiny-bike.png" class="thumnail-image"> </a></p>
+<p><a href=""> <img src="white-shiny-bike.png" class="thumnail-image" style="height: 75px;"> </a></p>
 </div>
 <div class="body">
 <a href="">
@@ -596,7 +606,7 @@ Jun 22, 2022
 </a><a href="https://colorado.rstudio.com/rsc/content/bdc0b532-6b42-4341-8310-73da49eafe09/">Bike Predict - App - Client App (DEV)</a>
 </h3>
 <div class="listing-subtitle">
-sam.edwardes
+
 </div>
 
 </div>
@@ -604,6 +614,9 @@ sam.edwardes
 <a href="">
 <div class="listing-date">
 Jun 21, 2022
+</div>
+<div class="listing-author">
+sam.edwardes
 </div>
 </a>
 </div>

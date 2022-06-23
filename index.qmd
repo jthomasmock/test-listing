@@ -2,7 +2,7 @@
 title: "Bike Share"
 subtitle: "End-to-End Data Science with RStudio Connect"
 title-block-banner: "bike-hero.png"
-engine: knitr
+engine: python
 format: 
   html:
     toc: true
@@ -12,9 +12,11 @@ listing:
     contents: "etl.yml"
     type: grid
     grid-columns: 2
+    image-height: 100px
   - id: modeling
     contents: "modeling.yml"
     type: grid
+    image-height: 100px
     grid-columns: 2
   - id: pins
     contents: "pins.yml"
@@ -26,16 +28,20 @@ listing:
     contents: "api.yml"
     type: default
     image-align: left
+    image-height: 75px
   - id: apps
     contents: "apps.yml"
     type: default
     image-align: left
+    image-height: 75px
 ---
 
 :::{.callout-tip}
 ## `connectwidgets` without R
 
-This document is doesn't have any R code but recreates the core features of `connectwidgets` - providing a Python friendly way of creating custom aggregation pages!
+This document doesn't have any R code but recreates the core features of `connectwidgets` - providing a Python friendly way of creating custom aggregation pages!
+
+Either `engine: python` or `engine: knitr` works for this document.
 :::
 
 

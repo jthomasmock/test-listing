@@ -4,7 +4,7 @@
     "href": "index.html",
     "title": "Bike Share",
     "section": "",
-    "text": "connectwidgets without R\n\n\n\nThis document is doesn’t have any R code but recreates the core features of connectwidgets - providing a Python friendly way of creating custom aggregation pages!"
+    "text": "connectwidgets without R\n\n\n\nThis document doesn’t have any R code but recreates the core features of connectwidgets - providing a Python friendly way of creating custom aggregation pages!\nEither engine: python or engine: knitr works for this document."
   },
   {
     "objectID": "about.html",
@@ -53,7 +53,7 @@
     "href": "index.html#content",
     "title": "Bike Share",
     "section": "Content",
-    "text": "Content\nExplore the deployed items below:\n\nScheduled jobs\n\nETLModeling\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - ETL Step 1 - Raw Data Refresh\n\n\n\nMay 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - ETL Step 2 - Tidy Data\n\n\n\nMay 21, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike-Predict—Model-Step-2—Metrics-1654034593681\n\n\nsam.edwardes\n\n\n\nMay 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike-Predict—Model-Step-1—Train-and-Deploy-1654034008521\n\n\nsam.edwardes\n\n\n\nMay 31, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nPins\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Last Updated\n        \n         \n          Description\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nLast Updated\n\n\nDescription\n\n\n\n\n\n\nbike_predict_model_r\n\n\n2022-06-22 09:02:00\n\n\nA ranger regression modeling workflow\n\n\n\n\nbike-predict-r-station-info-pin\n\n\n2022-06-22 09:02:00\n\n\nBike station info from https://capitalbikeshare.com.\n\n\n\n\nbike-predict-model-metrics\n\n\n2022-06-21 23:04:00\n\n\nDownload data: bike-predict-model-metrics.rds\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nAPIs\n\n\n\n\n  \n\n\n\n\nBike Predict - Model - API\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 22, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\nApps\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Connect Widgets\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 21, 2022\n\n\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Client App\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 22, 2022\n\n\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Client App (DEV)\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 21, 2022\n\n\n\n\n\n\nNo matching items"
+    "text": "Content\nExplore the deployed items below:\n\nScheduled jobs\n\nETLModeling\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - ETL Step 1 - Raw Data Refresh\n\n\n\nMay 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - ETL Step 2 - Tidy Data\n\n\n\nMay 21, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - Model Step 1 - Train and Deploy\n\n\n\nsam.edwardes\n\n\nMay 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - Model Step 2 - Metrics\n\n\n\nsam.edwardes\n\n\nMay 31, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nPins\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Last Updated\n        \n         \n          Description\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nLast Updated\n\n\nDescription\n\n\n\n\n\n\nbike_predict_model_r\n\n\n2022-06-22 09:02:00\n\n\nA ranger regression modeling workflow\n\n\n\n\nbike-predict-r-station-info-pin\n\n\n2022-06-22 09:02:00\n\n\nBike station info from https://capitalbikeshare.com.\n\n\n\n\nbike-predict-model-metrics\n\n\n2022-06-21 23:04:00\n\n\nDownload data: bike-predict-model-metrics.rds\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nAPIs\n\n\n\n\n  \n\n\n\n\nBike Predict - Model - API\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\nsam.edwardes\n\n\n\n\n\n\nNo matching items\n\n\n\n\nApps\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Connect Widgets\n\n\n\n\n\n\n\n\n\nJun 21, 2022\n\n\nsam.edwardes\n\n\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Client App\n\n\n\n\n\n\n\n\n\nJun 22, 2022\n\n\nsam.edwardes\n\n\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Client App (DEV)\n\n\n\n\n\n\n\n\n\nJun 21, 2022\n\n\nsam.edwardes\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "index.html#pins",
@@ -61,5 +61,19 @@
     "title": "",
     "section": "Pins",
     "text": "Pins\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          date-modified\n        \n         \n          Subtitle\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\ndate-modified\n\n\nSubtitle\n\n\n\n\n\n\nbike_predict_model_r\n\n\n2022-06-22 09:02:00\n\n\nA ranger regression modeling workflow\n\n\n\n\nbike-predict-r-station-info-pin\n\n\n2022-06-22 09:02:00\n\n\nBike station info from https://capitalbikeshare.com.\n\n\n\n\nbike-predict-model-metrics\n\n\n2022-06-21 23:04:00\n\n\nDownload data: bike-predict-model-metrics.rds\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "reprex.html",
+    "href": "reprex.html",
+    "title": "",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Subtitle\n        \n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nSubtitle\n\n\nDate\n\n\nAuthor\n\n\n\n\n\n\nMy cool report\n\n\nIt has neat things in it\n\n\nJun 23, 2022\n\n\nTom Mock\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "readme.html",
+    "href": "readme.html",
+    "title": "",
+    "section": "",
+    "text": "This is an experiment to recreate the core output from connectwidgets landing page.\nQuarto has support for multiple listings, which generate bootstrap cards, grids, or tables, without a hard requirement for R.\nIn most situations it is ideal to generate the listing YAML files via a library like R’s yaml or python’s PyYAML. A dataframe, JSON, or list/dict can be converted into YAML via these packages, providing a path from API queries against RStudio Connect to generate local content and be converted into YAML listing fragments."
   }
 ]

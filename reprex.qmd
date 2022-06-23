@@ -1,0 +1,14 @@
+---
+format: html
+listing: 
+  - id: table
+    type: table
+    contents:
+      title: "My cool report"
+      subtitle: "It has neat things in it"
+      date: "2022-06-23"
+      author: ["Tom Mock"]
+---
+
+::: {#table}
+:::
