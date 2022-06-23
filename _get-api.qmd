@@ -1,0 +1,121 @@
+---
+format: html
+engine: knitr
+---
+
+## Connect API calls
+
+```{r}
+library(httr)
+library(dplyr)
+library(tidyr)
+
+apiKey <- Sys.getenv("CONNECT_API_KEY")
+
+result <- GET("https://colorado.rstudio.com/rsc/__api__/v1/content",
+    add_headers(Authorization = paste("Key", apiKey)))
+
+raw_json <- result |> 
+  content()
+```
+
+Get all content items (~5200!)
+
+```{r}
+raw_df <- raw_json |>
+  tibble(data = _) |> 
+  unnest_wider(data)
+
+raw_df
+```
+
+## Bike Share content
+
+Can get the specific tag id for bike share and then filter using that.
+
+```{r}
+bike_tag <- GET("https://colorado.rstudio.com/rsc/__api__/v1/content/3124a8f9-7d30-44b9-a49a-552db71b036e/tags",
+    add_headers(Authorization = paste("Key", apiKey)))
+
+raw_json <- result |> 
+  content()
+
+bike_tag |> content()
+```
+
+Grab a sub-selection of the available columns.
+
+```{r}
+bike_content <- GET("https://colorado.rstudio.com/rsc/__api__/v1/tags/217/content",
+    add_headers(Authorization = paste("Key", apiKey)))
+
+bike_json <- content(bike_content) |> 
+  tibble(data = _) |> 
+  unnest_wider(data)
+
+bike_df <- bike_json |> 
+  select(guid, name, title, description, content_url, id, content_category, 
+         owner_guid, last_deployed_time)
+```
+
+This will take the above dataset and write a valid YAML file for use as a listings subsection. 
+
+```{r}
+bikeshare_df <- bike_df |> 
+  filter(guid %in% c("07b3ff23-595b-4f8b-9f28-7c393cf230ef", "35a5a9c3-f8b1-414a-91cb-bdb5ad402580")) |> 
+  select(title = name, url = content_url, date = last_deployed_time) |> 
+  mutate(title = glue::glue('<a href="{url}">{title}</a>'),
+         title = as.character(title),
+         image = "vetiver-bike.png",
+         author = "sam.edwardes",
+         date = substr(date, 1,10)) |> 
+  select(title, date, image, subtitle = author)
+
+# prove that it works
+bikeshare_df |> 
+  rowwise() |> 
+  group_split() |> 
+  yaml::as.yaml() |> 
+  cat()
+```
+
+We can then write it out to a file. Still some potential room for improvement, while the YAML is valid, ideally we would have single quotes around the title element so that it "looks" right when viewed.
+
+```{r}
+bikeshare_df |> 
+  rowwise() |> 
+  group_split() |> 
+  write_yaml("test.yml")
+```
+
+```{r}
+readLines("test.yml") |> 
+  paste0(collapse = "\n") |>  
+  cat()
+```
+
+```{r}
+yaml::read_yaml("test.yml") |> 
+  tibble(data = _) |> 
+  unnest_wider(data)
+```
+
+```{r}
+yaml::read_yaml("pins.yml") |> 
+  tibble(data = _) |> 
+  unnest_wider(data)
+```
+
+
+
+```{r}
+bikeshare_df <- data.frame(
+  stringsAsFactors = FALSE,
+             title = c("<a href=\"https://colorado.rstudio.com/rsc/content/35a5a9c3-f8b1-414a-91cb-bdb5ad402580/\">Bike-Predict---Model-Step-2---Metrics-1654034593681</a>",
+                       "<a href=\"https://colorado.rstudio.com/rsc/content/07b3ff23-595b-4f8b-9f28-7c393cf230ef/\">Bike-Predict---Model-Step-1---Train-and-Deploy-1654034008521</a>"),
+              date = c("2022-05-31", "2022-05-31"),
+             image = c("vetiver-bike.png", "vetiver-bike.png"),
+          subtitle = c("sam.edwardes", "sam.edwardes")
+)
+```
+

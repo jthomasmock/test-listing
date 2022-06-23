@@ -1,0 +1,17 @@
+- id: modeling
+  - title: "<a href='https://colorado.rstudio.com/rsc/content/07b3ff23-595b-4f8b-9f28-7c393cf230ef/'>Bike Predict - Model Step 1 - Train and Deploy</a>"
+    image: "vetiver-bike.png"
+    author: "sam.edwardes"
+    date: 2022-05-31
+  - title: "<a href='https://colorado.rstudio.com/rsc/content/35a5a9c3-f8b1-414a-91cb-bdb5ad402580/'>Bike Predict - Model Step 2 - Metrics</a>"
+    image: "vetiver-bike.png"
+    author: "sam.edwardes"
+    date: 2022-05-31
+
+- id: table
+  - title: "<a href='https://colorado.rstudio.com/rsc/content/a4cea054-c92d-4764-970d-b3473239c939/'>ETL Step 1</a>"
+    image: "blob:https://colorado.rstudio.com/06435a0d-3ee3-4392-bebe-ee598e657420"
+    date: 2022-06-21
+  - title: Second Item
+    image: https://d33wubrfki0l68.cloudfront.net/9f64516ebe93a8e5c91ea7409cbf422f8fec00e9/d75bd/logo.svg
+    date: 2020-06-22

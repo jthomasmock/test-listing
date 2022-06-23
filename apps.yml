@@ -1,0 +1,13 @@
+- title: "<a href='https://colorado.rstudio.com/rsc/content/3124a8f9-7d30-44b9-a49a-552db71b036e/'>Bike Predict - App - Connect Widgets</a>"
+  date: "2022-06-21"
+  subtitle: "sam.edwardes"
+  image: "connectwidgets-bike.png"
+- title: "<a href='https://colorado.rstudio.com/rsc/content/0477855b-caeb-43e8-b3d9-28e0965e6230/'>Bike Predict - App - Client App</a>"
+  subtitle: "sam.edwardes"
+  image: "shiny-bike.png"
+  date: "2022-06-22"
+- title: "<a href='https://colorado.rstudio.com/rsc/content/bdc0b532-6b42-4341-8310-73da49eafe09/'>Bike Predict - App - Client App (DEV)</a>"
+  subtitle: "sam.edwardes"
+  date: "2022-06-21"
+  image: "shiny-bike.png"
+  

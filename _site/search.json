@@ -1,0 +1,65 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Bike Share",
+    "section": "",
+    "text": "connectwidgets without R\n\n\n\nThis document is doesn’t have any R code but recreates the core features of connectwidgets - providing a Python friendly way of creating custom aggregation pages!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "default.ejs.html",
+    "href": "default.ejs.html",
+    "title": "test-listing",
+    "section": "",
+    "text": ":::{.list .quarto-listing-default}\n<% for (const item of items) { %>\n<% partial('_item-default.ejs.md', {listing, item }) %>\n<% } %>\n:::"
+  },
+  {
+    "objectID": "index.html#background",
+    "href": "index.html#background",
+    "title": "Bike Share",
+    "section": "Background",
+    "text": "Background\nThis project illustrates using RStudio Connect to deploy a data science project featuring:\n\n\nScheduled jobs\n\nFetching and cleaning data from a continuously updating web source\nPushing cleaned data to a relational database\nCreating intermediate datasets for subsequent use\n\n\n\nPins\n\nServing intermediate datasets and model objects for use in apps, APIs, and other jobs\n\n\n\nAPIs / Vetiver\n\nServing model predictions via HTTP requests deployed using vetiver\n\n\n\nDevelopment and Production Apps\n\nExposing model predictions to end-users through Shiny and Dash apps\nUsing git-backed deployment to keep a stable version of the application available from the main branch while doing development work on another branch\n\n\n\nPrivate Packages\n\nEncapsulate re-usable logic in an R package, and distribute with Package Manager (see https://github.com/sol-eng/bikeHelpR)"
+  },
+  {
+    "objectID": "index.html#etl",
+    "href": "index.html#etl",
+    "title": "",
+    "section": "ETL",
+    "text": "ETL"
+  },
+  {
+    "objectID": "index.html#modeling",
+    "href": "index.html#modeling",
+    "title": "",
+    "section": "Modeling",
+    "text": "Modeling"
+  },
+  {
+    "objectID": "index.html#scheduled-jobs",
+    "href": "index.html#scheduled-jobs",
+    "title": "",
+    "section": "Scheduled jobs",
+    "text": "Scheduled jobs\n\nFetching and cleaning data from a continuously updating web source\nPushing cleaned data to a relational database\nCreating intermediate datasets for subsequent use ## Pins\nServing intermediate datasets and model objects for use in apps, APIs, and other jobs ## APIs / Vetiver\nServing model predictions via HTTP requests deployed using vetiver ## Development and Production Apps\nExposing model predictions to end-users through Shiny and Dash apps\nUsing git-backed deployment to keep a stable version of the application available from the main branch while doing development work on another branch ## Private Packages\nEncapsulate re-usable logic in an R package, and distribute with Package Manager (see https://github.com/sol-eng/bikeHelpR)"
+  },
+  {
+    "objectID": "index.html#content",
+    "href": "index.html#content",
+    "title": "Bike Share",
+    "section": "Content",
+    "text": "Content\nExplore the deployed items below:\n\nScheduled jobs\n\nETLModeling\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - ETL Step 1 - Raw Data Refresh\n\n\n\nMay 21, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike Predict - ETL Step 2 - Tidy Data\n\n\n\nMay 21, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike-Predict—Model-Step-2—Metrics-1654034593681\n\n\nsam.edwardes\n\n\n\nMay 31, 2022\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBike-Predict—Model-Step-1—Train-and-Deploy-1654034008521\n\n\nsam.edwardes\n\n\n\nMay 31, 2022\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nPins\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          Last Updated\n        \n         \n          Description\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\nLast Updated\n\n\nDescription\n\n\n\n\n\n\nbike_predict_model_r\n\n\n2022-06-22 09:02:00\n\n\nA ranger regression modeling workflow\n\n\n\n\nbike-predict-r-station-info-pin\n\n\n2022-06-22 09:02:00\n\n\nBike station info from https://capitalbikeshare.com.\n\n\n\n\nbike-predict-model-metrics\n\n\n2022-06-21 23:04:00\n\n\nDownload data: bike-predict-model-metrics.rds\n\n\n\n\n\n\nNo matching items\n\n\n\n\n\n\n\nAPIs\n\n\n\n\n  \n\n\n\n\nBike Predict - Model - API\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 22, 2022\n\n\n\n\n\n\nNo matching items\n\n\n\n\nApps\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Connect Widgets\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 21, 2022\n\n\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Client App\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 22, 2022\n\n\n\n\n\n\n  \n\n\n\n\nBike Predict - App - Client App (DEV)\n\n\nsam.edwardes\n\n\n\n\n\n\nJun 21, 2022\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html#pins",
+    "href": "index.html#pins",
+    "title": "",
+    "section": "Pins",
+    "text": "Pins\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n         \n          date-modified\n        \n         \n          Subtitle\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nTitle\n\n\ndate-modified\n\n\nSubtitle\n\n\n\n\n\n\nbike_predict_model_r\n\n\n2022-06-22 09:02:00\n\n\nA ranger regression modeling workflow\n\n\n\n\nbike-predict-r-station-info-pin\n\n\n2022-06-22 09:02:00\n\n\nBike station info from https://capitalbikeshare.com.\n\n\n\n\nbike-predict-model-metrics\n\n\n2022-06-21 23:04:00\n\n\nDownload data: bike-predict-model-metrics.rds\n\n\n\n\n\n\nNo matching items"
+  }
+]
